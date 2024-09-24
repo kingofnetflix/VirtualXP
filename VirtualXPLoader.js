@@ -9,9 +9,9 @@
         this.canvas = this.options["canvas"] || null;
         this.ctx = this.canvas ? this.canvas.getContext("2d") : null;
 
-        this.total_memory = 256;
+        this.total_memory = 1024;
 
-        this.fast = options["fast"] || false;
+        this.fast = true;
         this.winnt_hack = options["winnt_hack"] || false;
 
         this.reportSpeed = options["reportSpeed"] || function (n) { };
